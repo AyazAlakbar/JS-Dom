@@ -1,7 +1,7 @@
 let btn=document.getElementById("addBtn");
 let input=document.getElementById("textInput");
 let list = document.getElementById("itemList");
-let removeBtn=document.getElementById("removeBtn")
+
 
 
 btn.addEventListener("click",function(){
@@ -14,6 +14,7 @@ btn.addEventListener("click",function(){
 
     let li = document.createElement("li");
     let span = document.createElement("span");
+    span.style.color="red"
     span.innerHTML ="[X]";
     
     span.onclick = function () {
