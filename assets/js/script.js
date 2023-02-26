@@ -14,7 +14,7 @@ btn.addEventListener("click",function(){
 
     let li = document.createElement("li");
     let span = document.createElement("span");
-    span.innerHTML = "--X--";
+    span.innerHTML ="[X]";
     
     span.onclick = function () {
         this.parentElement.remove();
